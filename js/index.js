@@ -76,6 +76,7 @@ function renderSemesterList() {
     }
     $(ID_SITE_SEMESTER_LIST).html(semesterListCode);
     $("#cgpa-container").removeClass("invisible");
+    showInfoMessage("Welcome", "info");
 }
 
 function generateSemesterWidget(semID) {
