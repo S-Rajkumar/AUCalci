@@ -1,0 +1,45 @@
+.semester {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.subject {
+    margin-top: 10px;
+}
+
+.subject select {
+    width: 158px;
+}
+
+.gpa-show  {
+    margin-top: 10px;
+}
+
+.form-select {
+    margin-top: 10px;
+    width: 158px;
+}
+
+#reg-submit {
+    margin-top: 10px;
+    width: 158px;
+}
+
+#cgpa-container {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+#show-lateral {
+    margin-top: 10px;
+}
+
+
+.page-footer {
+    margin-top: 2%;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    padding: 1.5%;
+    background-color: rgb(213, 213, 213);
+}

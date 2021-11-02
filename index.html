@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>AUCalci</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css/index.css" />
+        <script src="./js/constants.js" type="text/javascript"></script>
+        <script src="./js/index.js" type="text/javascript"></script>
+        <script src="./data/data.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron text-center">
+                    <h1 class="text-center">AUCalci</h1>
+                    <p>Calculate your GPA and CGPA</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="alert alert-info" id="info" role="alert"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <select id="regulation" name="regulation" class="form-select">
+                        <option value="none" selected>Select Regulation</option>
+                        <option value="reg-2013">Reg 2013</option>
+                    </select>
+                </div>
+                <div class="col-sm-3">
+                    <select id="department" name="department" class="form-select">
+                        <option value="none" selected>Select Department</option>
+                        <option value="cse">CSE</option>
+                    </select>
+                </div>
+                <div class="col-sm-3" id="show-lateral">
+                    <input type="checkbox" id="islateral" />
+                    <label class="text-primary">Lateral</label>
+                </div>
+                <div class="col-sm-3">
+                    <button class="label label-success" id="reg-submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="semesterlist">
+            <!-- code will be added dynamically -->
+        </div>
+        <div class="container invisible" id="cgpa-container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <span class="text-success">CGPA</span>
+                </div>
+                <div class="col-sm-4">
+                    <input type="number" id="cgpa" onchange="updateCGPA();" />
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer">
+            <div class="text-center">
+                <a href="https://github.com/s-rajkumar/" target="_blank">Report Issue</a>
+            </div>
+          </footer>
+    </body>
+</html>
