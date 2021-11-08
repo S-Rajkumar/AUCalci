@@ -881,4 +881,436 @@ const SITE_DATA = {
             }
         ]
     }
+    
+
+ "reg-2017" : {
+        "cse" : [
+            {
+                "title" : "sem-1",
+                "description": "Semester 1",
+                "subjects" : [
+                    {
+                        "subject_code": "HS8151",
+                        "subject_title": "CE",
+                        "subject_description": "Communicative English",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA8151",
+                        "subject_title": "M1",
+                        "subject_description": "Engineering Mathematics - 1",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH8151",
+                        "subject_title": "Physics",
+                        "subject_description": "Engineering Physics",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CY8151",
+                        "subject_title": "Chemistry",
+                        "subject_description": "Engineering Chemistry",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE8151",
+                        "subject_title": "PSPP",
+                        "subject_description": "Problem Solving and Python Programming",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE8152",
+                        "subject_title": "EG",
+                        "subject_description": "Engineering Graphics",
+                        "credit_points": 4,
+                    },
+                   {
+                        "subject_code": "GE8161",
+                        "subject_title": "PSPP Lab",
+                        "subject_description": "Problem Solving and Python Programming Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "BS8161",
+                        "subject_title": "PH & CY LAB",
+                        "subject_description": "Physics and Chemistry Laboratory",
+                        "credit_points": 2,
+                    },
+                    ]
+            },
+            {
+                "title" : "sem-2",
+                "description": "Semester 2",
+                "subjects" : [
+                    {
+                        "subject_code": "HS8251",
+                        "subject_title": "ENG",
+                        "subject_description": "Technical English",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA8251",
+                        "subject_title": "M2",
+                        "subject_description": "Engineering Mathematics - 2",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH8252",
+                        "subject_title": "IS",
+                        "subject_description": "Physics for Information Science",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "BE8255",
+                        "subject_title": "BEEME",
+                        "subject_description": "Basic Electrical,Electronics and Measurement Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE8291",
+                        "subject_title": "EVS",
+                        "subject_description": "Environmental Science and Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8251",
+                        "subject_title": "C",
+                        "subject_description": "Programming in C",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE8261",
+                        "subject_title": "EP Lab",
+                        "subject_description": "Engineering Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CS8261",
+                        "subject_title": "CP Lab",
+                        "subject_description": "C Programming Laboratory",
+                        "credit_points": 2,
+                    },
+                   ]
+            },
+            {
+                "title" : "sem-3",
+                "description": "Semester 3",
+                "subjects" : [
+                    {
+                        "subject_code": "MA8351",
+                        "subject_title": "DM",
+                        "subject_description": "Discrete Mathematics",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CS8351",
+                        "subject_title": "DPSD",
+                        "subject_description": "Ditial Principles and System Design",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CS8391",
+                        "subject_title": "DS",
+                        "subject_description": "Data Structures",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8392",
+                        "subject_title": "OOP",
+                        "subject_description": "Object Oriented Programming",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC8395",
+                        "subject_title": "Comm Eng",
+                        "subject_description": "Communication Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8381",
+                        "subject_title": "DS LAB",
+                        "subject_description": "Data Structures Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CS8383",
+                        "subject_title": "OOP Lab",
+                        "subject_description": "Object Oriented Programming Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CS8382",
+                        "subject_title": "DS Lab",
+                        "subject_description": "Digital Systems Laboratory",
+                        "credit_points": 2,
+                    },
+                   {
+                        "subject_code": "HS8381",
+                        "subject_title": "ISS",
+                        "subject_description": "Interpersonal Skills/Listening & Speaking",
+                        "credit_points": 1,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-4",
+                "description": "Semester 4",
+                "subjects" : [
+                    {
+                        "subject_code": "MA8402",
+                        "subject_title": "PQT",
+                        "subject_description": "Probability and Queueing Theory",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CS8491",
+                        "subject_title": "CA",
+                        "subject_description": "Computer Architecture",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8492",
+                        "subject_title": "DBMS",
+                        "subject_description": "Database Management System",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8451",
+                        "subject_title": "DAA",
+                        "subject_description": "Design and Analysis of Algorithms",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8493",
+                        "subject_title": "OS",
+                        "subject_description": "Operating Systems",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8494",
+                        "subject_title": "SE",
+                        "subject_description": "Software Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8461",
+                        "subject_title": "DBMS Lab",
+                        "subject_description": "Database Management System Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CS8462",
+                        "subject_title": "OS Lab",
+                        "subject_description": "Operating Systems Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "HS8461",
+                        "subject_title": "ARW",
+                        "subject_description": "Advanced Reading and Writing",
+                        "credit_points": 1,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-5",
+                "description": "Semester 5",
+                "subjects" : [
+                    {
+                        "subject_code": "MA8551",
+                        "subject_title": "ANT",
+                        "subject_description": "Algebra and Number Theory",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CS8591",
+                        "subject_title": "CN",
+                        "subject_description": "Computer Networks",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC8691",
+                        "subject_title": "MPMC",
+                        "subject_description": "Microprocessors and Microcontrollers",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8501",
+                        "subject_title": "TOC",
+                        "subject_description": "Theory of Computation",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8592",
+                        "subject_title": "OOAD",
+                        "subject_description": "Object Oriented Analysis and Design",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Open-Elective-1", 
+                        "subject_title": "Open-Elective-1",
+                        "subject_description": "Open Elective - 1",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC8681",
+                        "subject_title": "MPMC LAB",
+                        "subject_description": "Microprocessors and Microcontrollers Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CS8582",
+                        "subject_title": "OOAD Lab",
+                        "subject_description": "Object Oriented Analysis and Design Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CS8581",
+                        "subject_title": "Network Lab",
+                        "subject_description": "Networks Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-6",
+                "description": "Semester 6",
+                "subjects" : [
+                    {
+                        "subject_code": "CS8651",
+                        "subject_title": "IP",
+                        "subject_description": "Internet Programming",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8691",
+                        "subject_title": "AI",
+                        "subject_description": "Artificial Intelligence",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8601",
+                        "subject_title": "MC",
+                        "subject_description": "Mobile Computing",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8602",
+                        "subject_title": "Compiler LAB",
+                        "subject_description": "Compiler Design",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CS8603",
+                        "subject_title": "DS",
+                        "subject_description": "Distributted Systems",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Professional-Elective-1",
+                        "subject_title": "Professional-Elective-1",
+                        "subject_description": "Professional Elective - 1",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8661",
+                        "subject_title": "IP LAB",
+                        "subject_description": "Internet Porgramming Laboratory ",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CS8662",
+                        "subject_title": "MAD Lab",
+                        "subject_description": "Mobile Application Development Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CS8611",
+                        "subject_title": "MP",
+                        "subject_description": "Mini Project",
+                        "credit_points": 1,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-7",
+                "description": "Semester 7",
+                "subjects" : [
+                    {
+                        "subject_code": "MG8591",
+                        "subject_title": "CNS",
+                        "subject_description": "Cryptography and Network Security",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8792",
+                        "subject_title": "GTA",
+                        "subject_description": "Graph Theory and Applications",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8791",
+                        "subject_title": "GCC",
+                        "subject_description": "Grid and Cloud Computing",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Open-Elective-1",
+                        "subject_title": "Open-Elective-1",
+                        "subject_description": "Open Elective - 2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Professional-Elective-2",
+                        "subject_title": "Professional-Elective-2",
+                        "subject_description": "Professional Elective - 2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Professional-Elective-3",
+                        "subject_title": "Professional-Elective-3",
+                        "subject_description": "Professional Elective - 3",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8711",
+                        "subject_title": "CC LAB",
+                        "subject_description": "Cloud Computing Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "IT8761",
+                        "subject_title": "Security Lab",
+                        "subject_description": "Security Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-8",
+                "description": "Semester 8",
+                "subjects" : [
+                    {
+                        "subject_code": "Professional-Elective-4", 
+                        "subject_title": "Professional-Elective-4",
+                        "subject_description": "Professional Elective - 4",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Professional-Elective-5",
+                        "subject_title": "Professional-Elective-5",
+                        "subject_description": "Professional Elective - 5",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS8811",
+                        "subject_title": "Project",
+                        "subject_description": "Project Work",
+                        "credit_points": 10,
+                    },
+                ]
+            }
+        ]
+    }
 }
