@@ -880,10 +880,8 @@ const SITE_DATA = {
                 ]
             }
         ]
-    }
-    
-
- "reg-2017" : {
+    },
+    "reg-2017" : {
         "cse" : [
             {
                 "title" : "sem-1",
