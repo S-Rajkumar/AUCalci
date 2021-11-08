@@ -433,6 +433,452 @@ const SITE_DATA = {
                     },
                 ]
             }
+        ],
+        "mech" : [
+            {
+                "title" : "sem-1",
+                "description": "Semester 1",
+                "subjects" : [
+                    {
+                        "subject_code": "CY6151",
+                        "subject_title": "Chemistry-1",
+                        "subject_description": "Engineering Chemistry - 1",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6151",
+                        "subject_title": "CP",
+                        "subject_description": "Computer Programming",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6152",
+                        "subject_title": "EG",
+                        "subject_description": "Engineering Graphics",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6161",
+                        "subject_title": "CP LAB",
+                        "subject_description": "Computer Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6162",
+                        "subject_title": "EP LAB",
+                        "subject_description": "Engineering Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6163",
+                        "subject_title": "PH & CY LAB",
+                        "subject_description": "Physics and Chemistry Laboratory - 1",
+                        "credit_points": 1,
+                    },
+                    {
+                        "subject_code": "HS6151",
+                        "subject_title": "ENG-1",
+                        "subject_description": "Technical English - 1",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA6151",
+                        "subject_title": "M1",
+                        "subject_description": "Mathematics - 1",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH6151",
+                        "subject_title": "Physics-1",
+                        "subject_description": "Engineering Physics - 1",
+                        "credit_points": 3,
+                    }
+                ]
+            },
+            {
+                "title" : "sem-2",
+                "description": "Semester 2",
+                "subjects" : [
+                    {
+                        "subject_code": "HS6251",
+                        "subject_title": "ENG-2",
+                        "subject_description": "Technical English - 2",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA6251",
+                        "subject_title": "M2",
+                        "subject_description": "Mathematics - 2",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH6251",
+                        "subject_title": "Physics-2",
+                        "subject_description": "Engineering Physics - 2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CY6251",
+                        "subject_title": "Chemistry-2",
+                        "subject_description": "Engineering Chemistry - 2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6252",
+                        "subject_title": "BEEE",
+                        "subject_description": "Basic Electrical and Electronics Engineering",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6253",
+                        "subject_title": "EM",
+                        "subject_description": "Engineering Mechanics",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6261",
+                        "subject_title": "CAD LAB",
+                        "subject_description": "Computer Aided Drafting and Modeling Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6262",
+                        "subject_title": "PH & CY LAB",
+                        "subject_description": "Physics and Chimistry Laboratory - 2",
+                        "credit_points": 1,
+                    }
+                ]
+            },
+            {
+                "title" : "sem-3",
+                "description": "Semester 3",
+                "subjects" : [
+                    {
+                        "subject_code": "MA6351",
+                        "subject_title": "M3",
+                        "subject_description": "Transforms and Partial Differential Equations",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6306",
+                        "subject_title": "SM",
+                        "subject_description": "Strength of Materials",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "ME6301",
+                        "subject_title": "ET",
+                        "subject_description": "Engineering Thermodynamics",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6451",
+                        "subject_title": "FMM",
+                        "subject_description": "Fluid Mechanics and Machinery",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6302",
+                        "subject_title": "MT-1",
+                        "subject_description": "Manufacturing Technology - 1",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EE6351",
+                        "subject_title": "EDC",
+                        "subject_description": "Electrical Drives and Controls",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6311",
+                        "subject_title": "MT LAB",
+                        "subject_description": "Manufacturing Technology Laboratory - 1",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6461",
+                        "subject_title": "FMM LAB",
+                        "subject_description": "Fluid Mechanics and Machinery Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EE6365",
+                        "subject_title": "EE LAB",
+                        "subject_description": "Electrical Engineering Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-4",
+                "description": "Semester 4",
+                "subjects" : [
+                    {
+                        "subject_code": "MA6452",
+                        "subject_title": "SNM",
+                        "subject_description": "Statistics and Numerical Methods",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "ME6401",
+                        "subject_title": "KM",
+                        "subject_description": "Kinematics of Machinery",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6402",
+                        "subject_title": "MT-2",
+                        "subject_description": "Manufacturing Technology - 2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6403",
+                        "subject_title": "EMM",
+                        "subject_description": "Engineering Materials and Matallurgy",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6351",
+                        "subject_title": "EVS",
+                        "subject_description": "Environmental Science and Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6404",
+                        "subject_title": "TM",
+                        "subject_description": "Thermal Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6411",
+                        "subject_title": "MT LAB - 2",
+                        "subject_description": "Manufacturing Technology Laboratory - 2",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "ME6412",
+                        "subject_title": "TE LAB - 1",
+                        "subject_description": "Thermal Engineering Laboratory - 1",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6315",
+                        "subject_title": "SM LAB",
+                        "subject_description": "Stength of Materials Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-5",
+                "description": "Semester 5",
+                "subjects" : [
+                    {
+                        "subject_code": "ME6501",
+                        "subject_title": "CAD",
+                        "subject_description": "Computer Aided Design",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6502",
+                        "subject_title": "HMT",
+                        "subject_description": "Heat and Mass Transfer",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6503",
+                        "subject_title": "DMM",
+                        "subject_description": "Design of Machine Elements",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6504",
+                        "subject_title": "MM",
+                        "subject_description": "Metrology and Measurements",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6505",
+                        "subject_title": "DM",
+                        "subject_description": "Dynamics of Machines",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6075",
+                        "subject_title": "PEE",
+                        "subject_description": "Professional Ethics in Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6511",
+                        "subject_title": "Dynamics LAB",
+                        "subject_description": "Dynamics Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "ME6512",
+                        "subject_title": "TE LAB - 2",
+                        "subject_description": "Thermal Engineering Laboratory - 2",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "ME6513",
+                        "subject_title": "MM LAB",
+                        "subject_description": "Metrology and Measurements Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-6",
+                "description": "Semester 6",
+                "subjects" : [
+                    {
+                        "subject_code": "ME6601",
+                        "subject_title": "DTS",
+                        "subject_description": "Design of Transmission Systems",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "MG6851",
+                        "subject_title": "PM",
+                        "subject_description": "Principles of Management",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6602",
+                        "subject_title": "AE",
+                        "subject_description": "Automobile Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6603",
+                        "subject_title": "FEA",
+                        "subject_description": "Finite Element Analysis",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6604",
+                        "subject_title": "GDJP",
+                        "subject_description": "Gas Dynamics and Jet Propulsion",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-1",
+                        "subject_title": "Elective-1",
+                        "subject_description": "Elective-1",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6611",
+                        "subject_title": "CAD / CAM LAB",
+                        "subject_description": "C.A.D / C.A.D Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "ME6612",
+                        "subject_title": "DFP",
+                        "subject_description": "Design and Fabrication Project",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6674",
+                        "subject_title": "Communication LAB",
+                        "subject_description": "Communication and Soft Skills - Laboratory Based",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-7",
+                "description": "Semester 7",
+                "subjects" : [
+                    {
+                        "subject_code": "ME6701",
+                        "subject_title": "PPE",
+                        "subject_description": "Power Plant Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6702",
+                        "subject_title": "Mechatronics",
+                        "subject_description": "Mechatronics",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6703",
+                        "subject_title": "CIMS",
+                        "subject_description": "Computer Integrated Manufacturing Systems",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6757",
+                        "subject_title": "TQM",
+                        "subject_description": "Total Quality Management",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-2",
+                        "subject_title": "Elective-2",
+                        "subject_description": "Elective - 2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-3",
+                        "subject_title": "Elective-3",
+                        "subject_description": "Elective - 3",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6711",
+                        "subject_title": "SA LAB",
+                        "subject_description": "Simulation and Analysis Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "ME6712",
+                        "subject_title": "Mechatronics LAB",
+                        "subject_description": "Mechatronics Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "ME6713",
+                        "subject_title": "Comprehension",
+                        "subject_description": "Comprehension",
+                        "credit_points": 1,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-8",
+                "description": "Semester 8",
+                "subjects" : [
+                    {
+                        "subject_code": "MG6863",
+                        "subject_title": "EE",
+                        "subject_description": "Engineering Economics",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-4",
+                        "subject_title": "Elective-4",
+                        "subject_description": "Elective - 4",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-5",
+                        "subject_title": "Elective-5",
+                        "subject_description": "Elective - 5",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "ME6811",
+                        "subject_title": "Project",
+                        "subject_description": "Project Work",
+                        "credit_points": 6,
+                    },
+                ]
+            }
         ]
     }
 }
