@@ -946,7 +946,7 @@ Laboratory - 1",
                         "subject_title": "Physics-1",
                         "subject_description": "Engineering Physics - 1",
                         "credit_points": 3,
-                    }
+                    },
                 ]
             },
             {
@@ -1371,7 +1371,6 @@ Drafting Laboratory",
                 ]
             }
         ]
-}
     },
     "reg-2017" : {
         "cse" : [
