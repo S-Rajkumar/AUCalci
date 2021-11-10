@@ -880,7 +880,7 @@ const SITE_DATA = {
                 ]
             }
         ],
-                "civil" : [
+        "civil" : [
             {
                 "title" : "sem-1",
                 "description": "Semester 1",
@@ -1138,7 +1138,7 @@ const SITE_DATA = {
                         "subject_description": "Highway Engineering",
                         "credit_points": 3,
                     },
-  {
+                    {
                         "subject_code": "CE6505",
                         "subject_title": "DRCE",
                         "subject_description": "Design of Reinforced Concrete Elements",
@@ -1219,7 +1219,7 @@ const SITE_DATA = {
                     {
                         "subject_code": "CE6612",
                         "subject_title": "CHE LAB",
-                        "subject_description": "Concrete and Highway Engineering Laboratory"
+                        "subject_description": "Concrete and Highway Engineering Laboratory",
                         "credit_points": 2,
                     },
                     
