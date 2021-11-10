@@ -888,9 +888,7 @@ const SITE_DATA = {
                     {
                         "subject_code": "CY6151",
                         "subject_title": "Chemistry-1",
-                        "subject_description": "Engineering Chemistry - 
-
-1",
+                        "subject_description": "Engineering Chemistry - 1",
                         "credit_points": 3,
                     },
                     {
