@@ -1219,7 +1219,7 @@ const SITE_DATA = {
                     {
                         "subject_code": "CE6612",
                         "subject_title": "CHE LAB",
-                        "subject_description": "Concrete and Highway Engineering Laboratory
+                        "subject_description": "Concrete and Highway Engineering Laboratory"
                         "credit_points": 2,
                     },
                     
