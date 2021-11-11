@@ -879,6 +879,436 @@ const SITE_DATA = {
                     },
                 ]
             }
+        ],
+        "civil" : [
+            {
+                "title" : "sem-1",
+                "description": "Semester 1",
+                "subjects" : [
+                    {
+                        "subject_code": "CY6151",
+                        "subject_title": "Chemistry-1",
+                        "subject_description": "Engineering Chemistry - 1",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6151",
+                        "subject_title": "CP",
+                        "subject_description": "Computer Programming",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6152",
+                        "subject_title": "EG",
+                        "subject_description": "Engineering Graphics",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6161",
+                        "subject_title": "CP LAB",
+                        "subject_description": "Computer Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6162",
+                        "subject_title": "EP LAB",
+                        "subject_description": "Engineering Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6163",
+                        "subject_title": "PH & CY LAB",
+                        "subject_description": "Physics and Chemistry Laboratory - 1",
+                        "credit_points": 1,
+                    },
+                    {
+                        "subject_code": "HS6151",
+                        "subject_title": "ENG-1",
+                        "subject_description": "Technical English - 1",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA6151",
+                        "subject_title": "M1",
+                        "subject_description": "Mathematics - 1",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH6151",
+                        "subject_title": "Physics-1",
+                        "subject_description": "Engineering Physics - 1",
+                        "credit_points": 3,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-2",
+                "description": "Semester 2",
+                "subjects" : [
+                    {
+                        "subject_code": "GE6252",
+                        "subject_title": "BEEE",
+                        "subject_description": "Basic Electrical and Electronics Engineering",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6253",
+                        "subject_title": "EM",
+                        "subject_description": "Engineering Mechanics",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6261",
+                        "subject_title": "CAD LAB",
+                        "subject_description": "Computer Aided Drafting and Modeling Laboratory",
+                        "credit_points": 2,
+                    },
+                   
+                    {
+                        "subject_code": "CY6251",
+                        "subject_title": "Chemistry-2",
+                        "subject_description": "Engineering Chemistry - 2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6262",
+                        "subject_title": "PH & CY LAB",
+                        "subject_description": "Physics and Chemistry Laboratory - 2",
+                        "credit_points": 1,
+                    },
+                    {
+                        "subject_code": "HS6251",
+                        "subject_title": "ENG-2",
+                        "subject_description": "Technical English - 2",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA6251",
+                        "subject_title": "M2",
+                        "subject_description": "Mathematics - 2",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH6251",
+                        "subject_title": "Physics-2",
+                        "subject_description": "Engineering Physics - 2",
+                        "credit_points": 3,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-3",
+                "description": "Semester 3",
+                "subjects" : [
+                    {
+                        "subject_code": "GE6351",
+                        "subject_title": "ESE",
+                        "subject_description": "Environmental Science and Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6302",
+                        "subject_title": "MS",
+                        "subject_description": "Mechanics of Solids",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6301",
+                        "subject_title": "EG",
+                        "subject_description": "Engineering Geology",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6303",
+                        "subject_title": "MOF",
+                        "subject_description": "Mechanics of Fluids",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6304",
+                        "subject_title": "SURVEY",
+                        "subject_description": "Surveying I",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6311",
+                        "subject_title": "SURVEY LAB",
+                        "subject_description": "Survey Practical I",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6312",
+                        "subject_title": "CABD LAB",
+                        "subject_description": "Computer Aided Building Drawing",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "MA6351",
+                        "subject_title": "M3",
+                        "subject_description": "Transforms and Partial Differential Equations",
+                        "credit_points": 4,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-4",
+                "description": "Semester 4",
+                "subjects" : [
+                    {
+                        "subject_code": "MA6459",
+                        "subject_title": "NM",
+                        "subject_description": "Numerical Methods",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6401",
+                        "subject_title": "CM",
+                        "subject_description": "Construction Materials",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6402",
+                        "subject_title": "SOM",
+                        "subject_description": "Strength of Materials",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6403",
+                        "subject_title": "AHE",
+                        "subject_description": "Applied Hydraulic Engineering",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6404",
+                        "subject_title": "SURVEY-II",
+                        "subject_description": "Surveying II",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6405",
+                        "subject_title": "SM",
+                        "subject_description": "Soil Mechanics",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": " CE6411",
+                        "subject_title": "SOM LAB",
+                        "subject_description": "Strength of Materials Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6412",
+                        "subject_title": "HE LAB",
+                        "subject_description": "Hydraulic Engineering Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6413",
+                        "subject_title": "SURVEY LAB",
+                        "subject_description": "Survey Practical II",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-5",
+                "description": "Semester 5",
+                "subjects" : [
+                    {
+                        "subject_code": "CE6501",
+                        "subject_title": "SA-I",
+                        "subject_description": "Structural Analysis I",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6502",
+                        "subject_title": "FE",
+                        "subject_description": "Foundation Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6503",
+                        "subject_title": "EE-I",
+                        "subject_description": "Environmental Engineering I",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6504",
+                        "subject_title": "HE",
+                        "subject_description": "Highway Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6505",
+                        "subject_title": "DRCE",
+                        "subject_description": "Design of Reinforced Concrete Elements",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6506",
+                        "subject_title": "CTEP",
+                        "subject_description": "Construction Techniques, Equipment and Practice",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6674",
+                        "subject_title": "COMMUNICATION LAB",
+                        "subject_description": "Communication and Soft skills- Laboratory Based",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6511",
+                        "subject_title": "SM LAB",
+                        "subject_description": "Soil Mechanics Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "MA6566",
+                        "subject_title": "M5",
+                        "subject_description": "Discrete Mathematics",
+                        "credit_points": 4,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-6",
+                "description": "Semester 6",
+                "subjects" : [
+                    {
+                        "subject_code": "CE6601",
+                        "subject_title": "DRC&BMS",
+                        "subject_description": "Design of Reinforced Concrete & Brick Masonry Structures",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6602",
+                        "subject_title": "SA-II",
+                        "subject_description": "Structural Analysis II",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6603",
+                        "subject_title": "DSS",
+                        "subject_description": "Design of Steel Structures",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6604",
+                        "subject_title": "RAHE",
+                        "subject_description": "Railways, Airports and Harbour Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6605",
+                        "subject_title": "EE-II",
+                        "subject_description": "Environmental Engineering II",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective I",
+                        "subject_title": "Elective I",
+                        "subject_description": "Elective I",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6611",
+                        "subject_title": "EE LAB",
+                        "subject_description": "Environmental Engineering Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6612",
+                        "subject_title": "CHE LAB",
+                        "subject_description": "Concrete and Highway Engineering Laboratory",
+                        "credit_points": 2,
+                    },
+                    
+                ]
+            },
+            {
+                "title" : "sem-7",
+                "description": "Semester 7",
+                "subjects" : [
+                    {
+                        "subject_code": "CE6701",
+                        "subject_title": "SDEE",
+                        "subject_description": "Structural Dynamics and Earthquake Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6702",
+                        "subject_title": "PCS",
+                        "subject_description": "Prestressed Concrete Structures",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6703",
+                        "subject_title": "WRIE",
+                        "subject_description": "Water Resources and Irrigation Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6704",
+                        "subject_title": "EQS",
+                        "subject_description": "Estimation and Quantity Surveying",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-2",
+                        "subject_title": "Elective-2",
+                        "subject_description": "Elective-2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-3",
+                        "subject_title": "Elective-3",
+                        "subject_description": "Elective-3",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": " CE6711",
+                        "subject_title": "CAD&D LAB",
+                        "subject_description": "Computer Aided Design and Drafting Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6712",
+                        "subject_title": "Design Project",
+                        "subject_description": "Design Project",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-8",
+                "description": "Semester 8",
+                "subjects" : [
+                    {
+                        "subject_code": "MG6851",
+                        "subject_title": "PM",
+                        "subject_description": "Principles of Management",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-4",
+                        "subject_title": "Elective-4",
+                        "subject_description": "Elective-4",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-5",
+                        "subject_title": "Elective-5",
+                        "subject_description": "Elective-5",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6811",
+                        "subject_title": "Project",
+                        "subject_description": "Project Work",
+                        "credit_points": 6,
+                    },
+                ]
+            }
         ]
     },
     "reg-2017" : {
