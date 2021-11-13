@@ -118,6 +118,10 @@ function validateRegDeptSelection() {
         showInfoMessage(MESSAGE_ERROR_DEPT_SELECT, "error");
         return false;
     }
+    if(!SITE_DATA[regulation].hasOwnProperty(department)){
+        showInfoMessage("This Department not yet added !!!", "warning");
+        return false;
+    }
     if (SITE_DEBUG) console.log("dept : " + department);
     SELECTED_REGULATION = regulation;
     SELECTED_DEPARTMENT = department;
