@@ -435,441 +435,441 @@ const SITE_DATA = {
             }
         ],
         "ece" : [
-        {
-            "title" : "sem-1",
-            "description": "Semester 1",
-            "subjects" : [
-                {
-                    "subject_code": "HS6151",
-                    "subject_title": "English – I",
-                    "subject_description": "Technical English – I",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "MA6151",
-                    "subject_title": "Mathematics– I",
-                    "subject_description": "Engineering Physics – I",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "PH6151",
-                    "subject_title": " Physics – I ",
-                    "subject_description": "Engineering Physics – I	 ",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "CY6151",
-                    "subject_title": " Chemistry – I",
-                    "subject_description": "Engineering Chemistry – I",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "GE6151",
-                    "subject_title": "Computer Programming ",
-                    "subject_description": "Computer Programming ",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "GE6152",
-                    "subject_title": "Engineering Graphics ",
-                    "subject_description": "Engineering Graphics",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "GE6161",
-                    "subject_title": "CP Lab	 ",
-                    "subject_description": "Computer Practices Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "GE6162",
-                    "subject_title": "EP Lab                    ",
-                    "subject_description": "Engineering Practices Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "GE6163",
-                    "subject_title": "PC Laboratory– I",
-                    "subject_description": "Physics and Chemistry Laboratory – I",
-                    "credit_points": 1,   
-                }
-            ]
-        },
-        {
-            "title" : "sem-2",
-            "description": "Semester 2",
-            "subjects" : [
-                {
-                    "subject_code": "HS6251",
-                    "subject_title": " English – II",
-                    "subject_description": "Technical English – II	",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "MA6251",
-                    "subject_title": "Mathematics – II",
-                    "subject_description": "Mathematics – II" ,
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "PH6251",
-                    "subject_title": "Physics – II",
-                    "subject_description": "Engineering Physics – II",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "CY6251",
-                    "subject_title": " Chemistry – II",
-                    "subject_description": "Engineering Chemistry – II",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6201",
-                    "subject_title": "ED" ,
-                    "subject_description": "Electronic Devices",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EE6201",
-                    "subject_title": "CT ",
-                    "subject_description": "Circuit Theory",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "GE6262",
-                    "subject_title": "PC Lab– II",
-                    "subject_description": "Physics and Chemistry Laboratory – II",
-                    "credit_points": 1,
-                },
-                {
-                    "subject_code": "EC6211",
-                    "subject_title": "Circuits and Devices Laboratory",
-                    "subject_description": "Circuits and Devices Laboratory",
-                    "credit_points": 2,
-                },
-                
-            ]
-        },
-        {
-            "title" : "sem-3",
-            "description": "Semester 3",
-            "subjects" : [
-                {
-                    "subject_code": "MA6351",
-                    "subject_title": "TPDE",
-                    "subject_description": "Transforms and Partial Differential Equations",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "EE6352",
-                    "subject_title": "EEI",
-                    "subject_description": "Electrical Engineering and Instrumentation",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "EC6301",
-                    "subject_title": "OOPs",
-                    "subject_description": "Object Oriented Programming and Data Structures",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6302",
-                    "subject_title": "DE",
-                    "subject_description": "Digital Electronics",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6303",
-                    "subject_title": "SS",
-                    "subject_description": "Signals and Systems",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "EC6304",
-                    "subject_title": "EC- I",
-                    "subject_description": "Electronic Circuits- I",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "EC6311",
-                    "subject_title": "ADC-Lab",
-                    "subject_description": "Analog and Digital Circuits Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "EC6312",
-                    "subject_title": "OOPS Lab",
-                    "subject_description": "OOPS and Data Structures Laboratory",
-                    "credit_points": 2,
-                },
-            ]
-        },
-        {
-            "title" : "sem-4",
-            "description": "Semester 4",
-            "subjects" : [
-                {
-                    "subject_code": "MA6451",
-                    "subject_title": "PRP-M4",
-                    "subject_description": "Probability and Random Processes",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "EC6401",
-                    "subject_title": "EC-II",
-                    "subject_description": "Electronic Circuits II",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6402",
-                    "subject_title": "CT ",
-                    "subject_description": "Communication Theory",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6403",
-                    "subject_title": "EF",
-                    "subject_description": "Electromagnetic Fields",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "EC6404",
-                    "subject_title": "LIC",
-                    "subject_description": "Linear Integrated Circuits",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6405",
-                    "subject_title": "CS",
-                    "subject_description": "Control System Engineering",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6411",
-                    "subject_title": "Circuit Lab",
-                    "subject_description": "Circuit and Simulation Integrated Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "EC6412",
-                    "subject_title": "LIC Lab",
-                    "subject_description": "Linear Integrated Circuit Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "EE6461",
-                    "subject_title": "EECS Lab",
-                    "subject_description": "Electrical Engineering and Control System Laboratory",
-                    "credit_points": 2,
-                },
-            ]
-        },
-        {
-            "title" : "sem-5",
-            "description": "Semester 5",
-            "subjects" : [
-                {
-                    "subject_code": "EC6501",
-                    "subject_title": "DC ",
-                    "subject_description": "Digital Communication",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6502",
-                    "subject_title": "DSP",
-                    "subject_description": "Principles of Digital Signal Processing",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "EC6503",
-                    "subject_title": "TLWG",
-                    "subject_description": "Transmission Lines and Wave Guides",
-                    "credit_points": 4,
-                },
-                {
-                    "subject_code": "GE6351",
-                    "subject_title": "EVS",
-                    "subject_description": "Environmental Science and Engineering",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6504",
-                    "subject_title": "MPMC",
-                    "subject_description": "Microprocessor and Microcontroller",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6511",
-                    "subject_title": "DSP Lab",
-                    "subject_description": "Digital Signal Processing Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "EC6512	 ",
-                    "subject_title": "CS Lab",
-                    "subject_description": "Communication System Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "EC6513",
-                    "subject_title": "MPMC Lab",
-                    "subject_description": "Microprocessor and Microcontroller Laboratory",
-                    "credit_points": 2,
-                },
-            ]
-        },
-        {
-            "title" : "sem-6",
-            "description": "Semester 6",
-            "subjects" : [
-                {
-                    "subject_code": "Elective-1",
-                    "subject_title": "Elective-1",
-                    "subject_description": "Medical Electronics	,Advanced Digital Signal Processing	,Operating Systems ,Robotics and Automation	 ",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "MG6851",
-                    "subject_title": "POM",
-                    "subject_description": "Principles of Management",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "CS6303",
-                    "subject_title": "CA",
-                    "subject_description": "Computer Architecture",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "CS6551",
-                    "subject_title": "CN",
-                    "subject_description": "Computer Networks",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6601",
-                    "subject_title": "VLSI",
-                    "subject_description": "VLSI Design",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6602",
-                    "subject_title": "AWP",
-                    "subject_description": "Antenna and Wave propagation",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "GE6674",
-                    "subject_title": "Communication Lab",
-                    "subject_description": "Communication and Soft Skills - Laboratory Based",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "EC6611",
-                    "subject_title": "CN Lab",
-                    "subject_description": "Computer Networks Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "EC6612",
-                    "subject_title": "VLSI Lab",
-                    "subject_description": "VLSI Design Laboratory",
-                    "credit_points": 2,
-                },
-            ]
-        },
-        {
-            "title" : "sem-7",
-            "description": "Semester 7",
-            "subjects" : [
-                {
-                    "subject_code": "EC6701",
-                    "subject_title": "RF",
-                    "subject_description": "RF and Microwave Engineering",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6702",
-                    "subject_title": "OCN",
-                    "subject_description": "Optical Communication and Networks",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6703",
-                    "subject_title": "ERTS",
-                    "subject_description": "Embedded and Real Time Systems",
-                    "credit_points": 3,
-                },
-                
-                {
-                    "subject_code": "Elective-2",
-                    "subject_title": "Elective-2",
-                    "subject_description": "Satellite Communication	,Electronic Testing	Avionics",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "Elective-3",
-                    "subject_title": "Elective-3",
-                    "subject_description": "Speech Processing,Web Technology",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "Elective-4",
-                    "subject_title": "Elective-4",
-                    "subject_description": "CMOS Analog IC Design,Advanced Microprocessors and Microcontrollers	,Cognitive Radio",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6711",
-                    "subject_title": "Embed LAB",
-                    "subject_description": "Embedded Laboratory",
-                    "credit_points": 2,
-                },
-                {
-                    "subject_code": "EC6712",
-                    "subject_title": "Optical LAB",
-                    "subject_description": "Optical and Microwave Laboratory",
-                    "credit_points": 2,
-                },
-            ]
-        },
-        {
-            "title" : "sem-8",
-            "description": "Semester 8",
-            "subjects" : [
-                {
-                    "subject_code": "EC6801",
-                    "subject_title": "WC",
-                    "subject_description": "Wireless Communication",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6802",
-                    "subject_title": "WN",
-                    "subject_description": "Wireless Networks",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "Elective-5",
-                    "subject_title": "Elective-5",
-                    "subject_description": "RF System Design,Ad hoc and Sensors Networks,Multimedia Compression and Communication,Disaster Management",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "Elective-6",
-                    "subject_title": "Elective-6",
-                    "subject_description": "Data Converters	,Cryptography and Network Security	,Total Quality Management	Human Rights",
-                    "credit_points": 3,
-                },
-                {
-                    "subject_code": "EC6811",
-                    "subject_title": "Project",
-                    "subject_description": "Project Work",
-                    "credit_points": 6,
-                },
-            ]
-        }
-    ],
+            {
+                "title" : "sem-1",
+                "description": "Semester 1",
+                "subjects" : [
+                    {
+                        "subject_code": "HS6151",
+                        "subject_title": "English – I",
+                        "subject_description": "Technical English – I",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA6151",
+                        "subject_title": "Mathematics– I",
+                        "subject_description": "Engineering Physics – I",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH6151",
+                        "subject_title": " Physics – I ",
+                        "subject_description": "Engineering Physics – I	 ",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CY6151",
+                        "subject_title": " Chemistry – I",
+                        "subject_description": "Engineering Chemistry – I",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6151",
+                        "subject_title": "Computer Programming ",
+                        "subject_description": "Computer Programming ",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6152",
+                        "subject_title": "Engineering Graphics ",
+                        "subject_description": "Engineering Graphics",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6161",
+                        "subject_title": "CP Lab	 ",
+                        "subject_description": "Computer Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6162",
+                        "subject_title": "EP Lab                    ",
+                        "subject_description": "Engineering Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6163",
+                        "subject_title": "PC Laboratory– I",
+                        "subject_description": "Physics and Chemistry Laboratory – I",
+                        "credit_points": 1,   
+                    }
+                ]
+            },
+            {
+                "title" : "sem-2",
+                "description": "Semester 2",
+                "subjects" : [
+                    {
+                        "subject_code": "HS6251",
+                        "subject_title": " English – II",
+                        "subject_description": "Technical English – II	",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA6251",
+                        "subject_title": "Mathematics – II",
+                        "subject_description": "Mathematics – II" ,
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH6251",
+                        "subject_title": "Physics – II",
+                        "subject_description": "Engineering Physics – II",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CY6251",
+                        "subject_title": " Chemistry – II",
+                        "subject_description": "Engineering Chemistry – II",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6201",
+                        "subject_title": "ED" ,
+                        "subject_description": "Electronic Devices",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EE6201",
+                        "subject_title": "CT ",
+                        "subject_description": "Circuit Theory",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6262",
+                        "subject_title": "PC Lab– II",
+                        "subject_description": "Physics and Chemistry Laboratory – II",
+                        "credit_points": 1,
+                    },
+                    {
+                        "subject_code": "EC6211",
+                        "subject_title": "Circuits and Devices Laboratory",
+                        "subject_description": "Circuits and Devices Laboratory",
+                        "credit_points": 2,
+                    },
+                    
+                ]
+            },
+            {
+                "title" : "sem-3",
+                "description": "Semester 3",
+                "subjects" : [
+                    {
+                        "subject_code": "MA6351",
+                        "subject_title": "TPDE",
+                        "subject_description": "Transforms and Partial Differential Equations",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "EE6352",
+                        "subject_title": "EEI",
+                        "subject_description": "Electrical Engineering and Instrumentation",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "EC6301",
+                        "subject_title": "OOPs",
+                        "subject_description": "Object Oriented Programming and Data Structures",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6302",
+                        "subject_title": "DE",
+                        "subject_description": "Digital Electronics",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6303",
+                        "subject_title": "SS",
+                        "subject_description": "Signals and Systems",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "EC6304",
+                        "subject_title": "EC- I",
+                        "subject_description": "Electronic Circuits- I",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "EC6311",
+                        "subject_title": "ADC-Lab",
+                        "subject_description": "Analog and Digital Circuits Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EC6312",
+                        "subject_title": "OOPS Lab",
+                        "subject_description": "OOPS and Data Structures Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-4",
+                "description": "Semester 4",
+                "subjects" : [
+                    {
+                        "subject_code": "MA6451",
+                        "subject_title": "PRP-M4",
+                        "subject_description": "Probability and Random Processes",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "EC6401",
+                        "subject_title": "EC-II",
+                        "subject_description": "Electronic Circuits II",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6402",
+                        "subject_title": "CT ",
+                        "subject_description": "Communication Theory",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6403",
+                        "subject_title": "EF",
+                        "subject_description": "Electromagnetic Fields",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "EC6404",
+                        "subject_title": "LIC",
+                        "subject_description": "Linear Integrated Circuits",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6405",
+                        "subject_title": "CS",
+                        "subject_description": "Control System Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6411",
+                        "subject_title": "Circuit Lab",
+                        "subject_description": "Circuit and Simulation Integrated Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EC6412",
+                        "subject_title": "LIC Lab",
+                        "subject_description": "Linear Integrated Circuit Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EE6461",
+                        "subject_title": "EECS Lab",
+                        "subject_description": "Electrical Engineering and Control System Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-5",
+                "description": "Semester 5",
+                "subjects" : [
+                    {
+                        "subject_code": "EC6501",
+                        "subject_title": "DC ",
+                        "subject_description": "Digital Communication",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6502",
+                        "subject_title": "DSP",
+                        "subject_description": "Principles of Digital Signal Processing",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "EC6503",
+                        "subject_title": "TLWG",
+                        "subject_description": "Transmission Lines and Wave Guides",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6351",
+                        "subject_title": "EVS",
+                        "subject_description": "Environmental Science and Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6504",
+                        "subject_title": "MPMC",
+                        "subject_description": "Microprocessor and Microcontroller",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6511",
+                        "subject_title": "DSP Lab",
+                        "subject_description": "Digital Signal Processing Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EC6512	 ",
+                        "subject_title": "CS Lab",
+                        "subject_description": "Communication System Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EC6513",
+                        "subject_title": "MPMC Lab",
+                        "subject_description": "Microprocessor and Microcontroller Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-6",
+                "description": "Semester 6",
+                "subjects" : [
+                    {
+                        "subject_code": "Elective-1",
+                        "subject_title": "Elective-1",
+                        "subject_description": "Medical Electronics	,Advanced Digital Signal Processing	,Operating Systems ,Robotics and Automation	 ",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "MG6851",
+                        "subject_title": "POM",
+                        "subject_description": "Principles of Management",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS6303",
+                        "subject_title": "CA",
+                        "subject_description": "Computer Architecture",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CS6551",
+                        "subject_title": "CN",
+                        "subject_description": "Computer Networks",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6601",
+                        "subject_title": "VLSI",
+                        "subject_description": "VLSI Design",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6602",
+                        "subject_title": "AWP",
+                        "subject_description": "Antenna and Wave propagation",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6674",
+                        "subject_title": "Communication Lab",
+                        "subject_description": "Communication and Soft Skills - Laboratory Based",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EC6611",
+                        "subject_title": "CN Lab",
+                        "subject_description": "Computer Networks Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EC6612",
+                        "subject_title": "VLSI Lab",
+                        "subject_description": "VLSI Design Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-7",
+                "description": "Semester 7",
+                "subjects" : [
+                    {
+                        "subject_code": "EC6701",
+                        "subject_title": "RF",
+                        "subject_description": "RF and Microwave Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6702",
+                        "subject_title": "OCN",
+                        "subject_description": "Optical Communication and Networks",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6703",
+                        "subject_title": "ERTS",
+                        "subject_description": "Embedded and Real Time Systems",
+                        "credit_points": 3,
+                    },
+                    
+                    {
+                        "subject_code": "Elective-2",
+                        "subject_title": "Elective-2",
+                        "subject_description": "Satellite Communication	,Electronic Testing	Avionics",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-3",
+                        "subject_title": "Elective-3",
+                        "subject_description": "Speech Processing,Web Technology",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-4",
+                        "subject_title": "Elective-4",
+                        "subject_description": "CMOS Analog IC Design,Advanced Microprocessors and Microcontrollers	,Cognitive Radio",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6711",
+                        "subject_title": "Embed LAB",
+                        "subject_description": "Embedded Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "EC6712",
+                        "subject_title": "Optical LAB",
+                        "subject_description": "Optical and Microwave Laboratory",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-8",
+                "description": "Semester 8",
+                "subjects" : [
+                    {
+                        "subject_code": "EC6801",
+                        "subject_title": "WC",
+                        "subject_description": "Wireless Communication",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6802",
+                        "subject_title": "WN",
+                        "subject_description": "Wireless Networks",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-5",
+                        "subject_title": "Elective-5",
+                        "subject_description": "RF System Design,Ad hoc and Sensors Networks,Multimedia Compression and Communication,Disaster Management",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-6",
+                        "subject_title": "Elective-6",
+                        "subject_description": "Data Converters	,Cryptography and Network Security	,Total Quality Management	Human Rights",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "EC6811",
+                        "subject_title": "Project",
+                        "subject_description": "Project Work",
+                        "credit_points": 6,
+                    },
+                ]
+            }
+        ],
         "mech" : [
             {
                 "title" : "sem-1",
@@ -1309,6 +1309,436 @@ const SITE_DATA = {
                     },
                     {
                         "subject_code": "ME6811",
+                        "subject_title": "Project",
+                        "subject_description": "Project Work",
+                        "credit_points": 6,
+                    },
+                ]
+            }
+        ],
+        "civil" : [
+            {
+                "title" : "sem-1",
+                "description": "Semester 1",
+                "subjects" : [
+                    {
+                        "subject_code": "CY6151",
+                        "subject_title": "Chemistry-1",
+                        "subject_description": "Engineering Chemistry - 1",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6151",
+                        "subject_title": "CP",
+                        "subject_description": "Computer Programming",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6152",
+                        "subject_title": "EG",
+                        "subject_description": "Engineering Graphics",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6161",
+                        "subject_title": "CP LAB",
+                        "subject_description": "Computer Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6162",
+                        "subject_title": "EP LAB",
+                        "subject_description": "Engineering Practices Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "GE6163",
+                        "subject_title": "PH & CY LAB",
+                        "subject_description": "Physics and Chemistry Laboratory - 1",
+                        "credit_points": 1,
+                    },
+                    {
+                        "subject_code": "HS6151",
+                        "subject_title": "ENG-1",
+                        "subject_description": "Technical English - 1",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA6151",
+                        "subject_title": "M1",
+                        "subject_description": "Mathematics - 1",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH6151",
+                        "subject_title": "Physics-1",
+                        "subject_description": "Engineering Physics - 1",
+                        "credit_points": 3,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-2",
+                "description": "Semester 2",
+                "subjects" : [
+                    {
+                        "subject_code": "GE6252",
+                        "subject_title": "BEEE",
+                        "subject_description": "Basic Electrical and Electronics Engineering",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6253",
+                        "subject_title": "EM",
+                        "subject_description": "Engineering Mechanics",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "GE6261",
+                        "subject_title": "CAD LAB",
+                        "subject_description": "Computer Aided Drafting and Modeling Laboratory",
+                        "credit_points": 2,
+                    },
+                   
+                    {
+                        "subject_code": "CY6251",
+                        "subject_title": "Chemistry-2",
+                        "subject_description": "Engineering Chemistry - 2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6262",
+                        "subject_title": "PH & CY LAB",
+                        "subject_description": "Physics and Chemistry Laboratory - 2",
+                        "credit_points": 1,
+                    },
+                    {
+                        "subject_code": "HS6251",
+                        "subject_title": "ENG-2",
+                        "subject_description": "Technical English - 2",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "MA6251",
+                        "subject_title": "M2",
+                        "subject_description": "Mathematics - 2",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "PH6251",
+                        "subject_title": "Physics-2",
+                        "subject_description": "Engineering Physics - 2",
+                        "credit_points": 3,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-3",
+                "description": "Semester 3",
+                "subjects" : [
+                    {
+                        "subject_code": "GE6351",
+                        "subject_title": "ESE",
+                        "subject_description": "Environmental Science and Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6302",
+                        "subject_title": "MS",
+                        "subject_description": "Mechanics of Solids",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6301",
+                        "subject_title": "EG",
+                        "subject_description": "Engineering Geology",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6303",
+                        "subject_title": "MOF",
+                        "subject_description": "Mechanics of Fluids",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6304",
+                        "subject_title": "SURVEY",
+                        "subject_description": "Surveying I",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6311",
+                        "subject_title": "SURVEY LAB",
+                        "subject_description": "Survey Practical I",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6312",
+                        "subject_title": "CABD LAB",
+                        "subject_description": "Computer Aided Building Drawing",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "MA6351",
+                        "subject_title": "M3",
+                        "subject_description": "Transforms and Partial Differential Equations",
+                        "credit_points": 4,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-4",
+                "description": "Semester 4",
+                "subjects" : [
+                    {
+                        "subject_code": "MA6459",
+                        "subject_title": "NM",
+                        "subject_description": "Numerical Methods",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6401",
+                        "subject_title": "CM",
+                        "subject_description": "Construction Materials",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6402",
+                        "subject_title": "SOM",
+                        "subject_description": "Strength of Materials",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6403",
+                        "subject_title": "AHE",
+                        "subject_description": "Applied Hydraulic Engineering",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6404",
+                        "subject_title": "SURVEY-II",
+                        "subject_description": "Surveying II",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6405",
+                        "subject_title": "SM",
+                        "subject_description": "Soil Mechanics",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": " CE6411",
+                        "subject_title": "SOM LAB",
+                        "subject_description": "Strength of Materials Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6412",
+                        "subject_title": "HE LAB",
+                        "subject_description": "Hydraulic Engineering Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6413",
+                        "subject_title": "SURVEY LAB",
+                        "subject_description": "Survey Practical II",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-5",
+                "description": "Semester 5",
+                "subjects" : [
+                    {
+                        "subject_code": "CE6501",
+                        "subject_title": "SA-I",
+                        "subject_description": "Structural Analysis I",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6502",
+                        "subject_title": "FE",
+                        "subject_description": "Foundation Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6503",
+                        "subject_title": "EE-I",
+                        "subject_description": "Environmental Engineering I",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6504",
+                        "subject_title": "HE",
+                        "subject_description": "Highway Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6505",
+                        "subject_title": "DRCE",
+                        "subject_description": "Design of Reinforced Concrete Elements",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6506",
+                        "subject_title": "CTEP",
+                        "subject_description": "Construction Techniques, Equipment and Practice",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "GE6674",
+                        "subject_title": "COMMUNICATION LAB",
+                        "subject_description": "Communication and Soft skills- Laboratory Based",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6511",
+                        "subject_title": "SM LAB",
+                        "subject_description": "Soil Mechanics Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "MA6566",
+                        "subject_title": "M5",
+                        "subject_description": "Discrete Mathematics",
+                        "credit_points": 4,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-6",
+                "description": "Semester 6",
+                "subjects" : [
+                    {
+                        "subject_code": "CE6601",
+                        "subject_title": "DRC&BMS",
+                        "subject_description": "Design of Reinforced Concrete & Brick Masonry Structures",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6602",
+                        "subject_title": "SA-II",
+                        "subject_description": "Structural Analysis II",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6603",
+                        "subject_title": "DSS",
+                        "subject_description": "Design of Steel Structures",
+                        "credit_points": 4,
+                    },
+                    {
+                        "subject_code": "CE6604",
+                        "subject_title": "RAHE",
+                        "subject_description": "Railways, Airports and Harbour Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6605",
+                        "subject_title": "EE-II",
+                        "subject_description": "Environmental Engineering II",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective I",
+                        "subject_title": "Elective I",
+                        "subject_description": "Elective I",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6611",
+                        "subject_title": "EE LAB",
+                        "subject_description": "Environmental Engineering Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6612",
+                        "subject_title": "CHE LAB",
+                        "subject_description": "Concrete and Highway Engineering Laboratory",
+                        "credit_points": 2,
+                    },
+                    
+                ]
+            },
+            {
+                "title" : "sem-7",
+                "description": "Semester 7",
+                "subjects" : [
+                    {
+                        "subject_code": "CE6701",
+                        "subject_title": "SDEE",
+                        "subject_description": "Structural Dynamics and Earthquake Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6702",
+                        "subject_title": "PCS",
+                        "subject_description": "Prestressed Concrete Structures",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6703",
+                        "subject_title": "WRIE",
+                        "subject_description": "Water Resources and Irrigation Engineering",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6704",
+                        "subject_title": "EQS",
+                        "subject_description": "Estimation and Quantity Surveying",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-2",
+                        "subject_title": "Elective-2",
+                        "subject_description": "Elective-2",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-3",
+                        "subject_title": "Elective-3",
+                        "subject_description": "Elective-3",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": " CE6711",
+                        "subject_title": "CAD&D LAB",
+                        "subject_description": "Computer Aided Design and Drafting Laboratory",
+                        "credit_points": 2,
+                    },
+                    {
+                        "subject_code": "CE6712",
+                        "subject_title": "Design Project",
+                        "subject_description": "Design Project",
+                        "credit_points": 2,
+                    },
+                ]
+            },
+            {
+                "title" : "sem-8",
+                "description": "Semester 8",
+                "subjects" : [
+                    {
+                        "subject_code": "MG6851",
+                        "subject_title": "PM",
+                        "subject_description": "Principles of Management",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-4",
+                        "subject_title": "Elective-4",
+                        "subject_description": "Elective-4",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "Elective-5",
+                        "subject_title": "Elective-5",
+                        "subject_description": "Elective-5",
+                        "credit_points": 3,
+                    },
+                    {
+                        "subject_code": "CE6811",
                         "subject_title": "Project",
                         "subject_description": "Project Work",
                         "credit_points": 6,
