@@ -22,7 +22,7 @@ function updateCGPA() {
         averageDiviser = averageDiviser + 1;
     }
     if(averageDiviser === 0 ) return false;
-    cgpa = ( sumOfGPA / averageDiviser).toFixed(3);
+    cgpa = ( sumOfGPA / averageDiviser).toFixed(2);
     $("#cgpa").val(cgpa);
 }
 
@@ -166,4 +166,27 @@ function getEmojiCode(subject_grade) {
     if(subject_grade === "E")   return GRADE_E_EMOJIS[Math.floor(Math.random()*GRADE_E_EMOJIS.length)];
     if(subject_grade === "U")   return GRADE_U_EMOJIS[Math.floor(Math.random()*GRADE_U_EMOJIS.length)];
     return GRADE_DEFAULT_EMOJIS[Math.floor(Math.random()*GRADE_DEFAULT_EMOJIS.length)];
+}
+
+function loadECETest() {
+    var testECEString = "{\"#sem-0-sub-0\":\"7\",\"#sem-0-sub-1\":\"5\",\"#sem-0-sub-2\":\"5\",\"#sem-0-sub-3\":\"7\",\"#sem-0-sub-4\":\"6\",\"#sem-0-sub-5\":\"5\",\"#sem-0-sub-6\":\"8\",\"#sem-0-sub-7\":\"9\",\"#sem-0-sub-8\":\"8\",\"#sem-1-sub-0\":\"6\",\"#sem-1-sub-1\":\"5\",\"#sem-1-sub-2\":\"5\",\"#sem-1-sub-3\":\"5\",\"#sem-1-sub-4\":\"5\",\"#sem-1-sub-5\":\"6\",\"#sem-1-sub-6\":\"8\",\"#sem-1-sub-7\":\"9\",\"#sem-2-sub-0\":\"5\",\"#sem-2-sub-1\":\"6\",\"#sem-2-sub-2\":\"6\",\"#sem-2-sub-3\":\"5\",\"#sem-2-sub-4\":\"5\",\"#sem-2-sub-5\":\"6\",\"#sem-2-sub-6\":\"9\",\"#sem-2-sub-7\":\"10\",\"#sem-3-sub-0\":\"7\",\"#sem-3-sub-1\":\"5\",\"#sem-3-sub-2\":\"6\",\"#sem-3-sub-3\":\"5\",\"#sem-3-sub-4\":\"9\",\"#sem-3-sub-5\":\"5\",\"#sem-3-sub-6\":\"7\",\"#sem-3-sub-7\":\"8\",\"#sem-3-sub-8\":\"10\",\"#sem-4-sub-0\":\"5\",\"#sem-4-sub-1\":\"5\",\"#sem-4-sub-2\":\"5\",\"#sem-4-sub-3\":\"7\",\"#sem-4-sub-4\":\"5\",\"#sem-4-sub-5\":\"10\",\"#sem-4-sub-6\":\"9\",\"#sem-4-sub-7\":\"8\",\"#sem-5-sub-0\":\"7\",\"#sem-5-sub-1\":\"7\",\"#sem-5-sub-2\":\"5\",\"#sem-5-sub-3\":\"7\",\"#sem-5-sub-4\":\"5\",\"#sem-5-sub-5\":\"5\",\"#sem-5-sub-6\":\"8\",\"#sem-5-sub-7\":\"9\",\"#sem-5-sub-8\":\"9\",\"#sem-6-sub-0\":\"6\",\"#sem-6-sub-1\":\"6\",\"#sem-6-sub-2\":\"7\",\"#sem-6-sub-3\":\"6\",\"#sem-6-sub-4\":\"5\",\"#sem-6-sub-5\":\"7\",\"#sem-6-sub-6\":\"10\",\"#sem-6-sub-7\":\"10\",\"#sem-7-sub-0\":\"7\",\"#sem-7-sub-1\":\"8\",\"#sem-7-sub-2\":\"7\",\"#sem-7-sub-3\":\"8\",\"#sem-7-sub-4\":\"9\"}";
+    var testECE = JSON.parse(testECEString);
+    for (const [key, value] of Object.entries(testECE)) {
+        console.log(key, value);
+        $(key).val(value);
+    }
+    for(let i=0; i<8; i++){
+        updateGPA(i);
+    }
+    updateCGPA();
+}
+
+function getTestData() {
+    var testData = {};
+    for(let i=0; i<8; i++) {
+        for(let j=0; j<SITE_DATA[SELECTED_REGULATION][SELECTED_DEPARTMENT][i]["subjects"].length; j++ ){
+            testData[`#sem-${i}-sub-${j}`] = $(`#sem-${i}-sub-${j}`).val();
+        }
+    }
+    console.log(JSON.stringify(testData));
 }
