@@ -12,18 +12,23 @@ $( document ).ready(function() {
 
 function updateCGPA() {
     let total_sem_count = SITE_DATA[SELECTED_REGULATION][SELECTED_DEPARTMENT].length;
-    let averageDiviser = 0;
     let sumOfGPA = 0;
+    let sumOfGradeXCredits = 0;
+    let sumOfCreditPoints = 0;
     for(let semID=SEMESTER_START-1; semID < total_sem_count; semID++){
-        let gpa = $(`#gpa-${semID}`).val();
-        if(gpa === "") continue;
-        gpa = parseFloat(gpa);
-        sumOfGPA = sumOfGPA + gpa;
-        averageDiviser = averageDiviser + 1;
+        let total_sub_count = SITE_DATA[SELECTED_REGULATION][SELECTED_DEPARTMENT][semID]["subjects"].length;
+        for(let subID=0; subID < total_sub_count; subID++){
+            let gradePoint = $(`#sem-${semID}-sub-${subID}`).val();
+            if(gradePoint === undefined || gradePoint === "0" || gradePoint === "none") continue;
+            gradePoint = parseInt(gradePoint);
+            let creditPoint = parseInt(SITE_DATA[SELECTED_REGULATION][SELECTED_DEPARTMENT][semID]["subjects"][subID]["credit_points"]);
+            sumOfGradeXCredits = sumOfGradeXCredits + (creditPoint * gradePoint);
+            sumOfCreditPoints = sumOfCreditPoints + creditPoint;
+        }
     }
-    if(averageDiviser === 0 ) return false;
-    cgpa = ( sumOfGPA / averageDiviser).toFixed(2);
-    $("#cgpa").val(cgpa);
+    if(sumOfCreditPoints === 0) return false;
+    let cgpa = (sumOfGradeXCredits / sumOfCreditPoints).toFixed(2);
+    $(`#cgpa`).val(cgpa);
 }
 
 function updateGPA(semID) {
