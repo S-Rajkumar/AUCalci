@@ -102,7 +102,7 @@ function generateSubjectWidget(semID, subID) {
     return `
         <div class="col-sm-3 subject">
             <select id="sem-${semID}-sub-${subID}" class="form-select" title="${SITE_DATA[SELECTED_REGULATION][SELECTED_DEPARTMENT][semID]["subjects"][subID]["subject_description"]}" onChange="selectSubject(this.id)">
-                <option value="none" selected>${SITE_DATA[SELECTED_REGULATION][SELECTED_DEPARTMENT][semID]["subjects"][subID]["subject_title"]}</option>
+                <option value="none" selected>${SITE_DATA[SELECTED_REGULATION][SELECTED_DEPARTMENT][semID]["subjects"][subID]["subject_code"]}</option>
                 ${GRADE_OPTIONS[SELECTED_REGULATION]}
             </select>
             <span id="emoji-sem-${semID}-sub-${subID}" class="emoji"></span>
